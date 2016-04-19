@@ -1,7 +1,6 @@
 #header-nav {
   background-color: #5d538b;
   border-radius: 0;
-  border: 0px;
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -11,10 +10,6 @@
   margin-top: 0;
   margin-bottom: 0;
   color: #ddd8eb;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ddd8eb;
 }
 
 .navbar-default .navbar-nav > li {
@@ -31,7 +26,8 @@
 	background-color: #dacfdd;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus  {
 	color: #d3e0ea;
 	background-color: #7c6d96;
 }
@@ -50,4 +46,17 @@
 
 #page-heading {
 	margin-top: -20px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd8eb;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #7f7392;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ddd8eb;
 }
