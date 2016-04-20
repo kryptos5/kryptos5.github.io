@@ -34,14 +34,23 @@
 
 .navbar-brand > a:hover {
 	text-decoration: none;
+	color: #fff;
 }
 
 #main-content {
 	padding: 0px 50px 25px 50px;
 }
 
-#chicken-text {
+#chicken-text, #beef-text, #sushi-text {
 	background-color: #ddd8eb;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+
+#chicken-text > span, 
+#beef-text > span, 
+#sushi-text > span{
+	font-size: 0.9em;
 }
 
 #page-heading {
