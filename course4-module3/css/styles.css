@@ -44,7 +44,7 @@
 #chicken-text, #beef-text, #sushi-text {
 	background-color: #ddd8eb;
 	padding: 5px 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 #chicken-text > span, 
